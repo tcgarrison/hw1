@@ -7,14 +7,14 @@
 // HOMEWORK 1
 
 // Given the following JavaScript object that represents weather data,
-// write a weather summary out to the screen, when this code is executed. 
+// write a weather summary out to the screen, when this code is executed.
 // Something like this:
 
 // Currently it is 67 degrees and sunny. Tomorrow it will be 65 and Mostly Cloudy.
 // The next day it we will see Partly Cloudy skies, with a temperature of 70.
 
 let weatherData = {
-  current: { 
+  current: {
     temperature: 67,
     conditions: "Sunny"
   },
@@ -24,4 +24,4 @@ let weatherData = {
   ]
 }
 
-console.log("Do your homework!");
+console.log("Do your homework 222!");
