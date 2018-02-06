@@ -24,4 +24,12 @@ let weatherData = {
   ]
 }
 
-console.log("Do your homework 222!");
+let current = "Currently it is " + weatherData.current.temperature + " degrees and " + weatherData.current.conditions + ". ";
+
+let forecast1 = "Tomorrow it will be " + weatherData.forecast[0].temperature + " and " + weatherData.forecast[0].conditions + ". ";
+
+let forecast2 = "The next day it will see " + weatherData.forecast[1].conditions + " skies, with a temperature of "  + weatherData.forecast[1].temperature + ".";
+
+let weatherSummary = current + forecast1 + forecast2;
+
+console.log(weatherSummary);
